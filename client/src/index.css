@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  color: #242424;
+} */
+.logout-button {
+  color: red;
+}
+
+.logout-button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+.logout-button:active {
+  transform: scale(1);
+}

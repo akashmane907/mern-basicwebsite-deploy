@@ -1,0 +1,87 @@
+/* Admin-Update.css */
+
+.admin-update-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-admin {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.update-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .update-btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}

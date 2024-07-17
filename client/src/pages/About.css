@@ -1,0 +1,64 @@
+/* Basic styles for the about section */
+.section-about {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.about-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.about-content h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.about-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about-content ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .grid-two-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content h1 {
+    font-size: 2em;
+  }
+
+  .about-content p {
+    font-size: 1em;
+  }
+
+  .about-content h2 {
+    font-size: 1.5em;
+  }
+
+  .about-content ul li {
+    font-size: 1em;
+  }
+
+  .about-image {
+    margin-top: 20px;
+  }
+}

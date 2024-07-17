@@ -1,0 +1,78 @@
+/* Admin-users.css */
+
+.admin-users-section {
+  padding: 40px 0;
+  background: white;
+}
+
+.container-contacts {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.admin-users {
+  margin-top: 20px;
+  overflow-x: auto; /* Enable horizontal scroll if needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.delete-btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .delete-btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}
